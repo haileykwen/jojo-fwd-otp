@@ -1,0 +1,21 @@
+{
+  "name": "fwd-otp",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lowcode": "node ./bin/cli.js",
+    "build": "node ./bin/app.build.js",
+    "prod": "node ./bin/server.prod.js",
+    "dev": "nodemon ./bin/server.dev.js --ignore public, resource"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.6.1",
+    "livereload": "^0.9.3",
+    "nodemon": "^2.0.15",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
